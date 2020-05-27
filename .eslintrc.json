@@ -18,6 +18,8 @@
   },
   "plugins": ["react", "jsx-a11y", "import"],
   "rules": {
+    "linebreak-style": ["error", "windows"],
+    "quotes": ["error", "double"],
     "react/jsx-filename-extension": [
       "error",
       {
