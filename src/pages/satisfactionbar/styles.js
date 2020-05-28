@@ -12,7 +12,7 @@ export const HorizontalBar = styled.div`
 
 export const ImageBar = styled.div`
   padding: 60px;
-  margin-left: 200px;
+  margin-left: 230px;
 `;
 
 export const Image = styled.img`

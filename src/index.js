@@ -8,6 +8,7 @@ import Header from "./pages/Header";
 import Satisfactionbar from "./pages/Satisfactionbar";
 import SecondBar from "./pages/SecondBar";
 import ThirdBar from "./pages/ThirdBar";
+import FourthBar from "./pages/FourthBar";
 
 ReactDOM.render(
   <React.StrictMode>
@@ -15,6 +16,7 @@ ReactDOM.render(
     <Satisfactionbar />
     <SecondBar />
     <ThirdBar />
+    <FourthBar />
   </React.StrictMode>,
 
   document.getElementById("root")
