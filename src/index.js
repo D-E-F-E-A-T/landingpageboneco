@@ -3,11 +3,18 @@ import React from "react";
 
 import ReactDOM from "react-dom";
 
-import App from "./App";
+import "./global.css";
+import Header from "./pages/Header";
+import Satisfactionbar from "./pages/Satisfactionbar";
+import SecondBar from "./pages/SecondBar";
+import ThirdBar from "./pages/ThirdBar";
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Header />
+    <Satisfactionbar />
+    <SecondBar />
+    <ThirdBar />
   </React.StrictMode>,
 
   document.getElementById("root")
