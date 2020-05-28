@@ -11,6 +11,7 @@ import ThirdBar from "./pages/ThirdBar";
 import FourthBar from "./pages/FourthBar";
 import FivethBar from "./pages/FivethBar";
 import SixthBar from "./pages/SixthBar";
+import SeventhBar from "./pages/SeventhBar";
 
 ReactDOM.render(
   <React.StrictMode>
@@ -21,6 +22,7 @@ ReactDOM.render(
     <FourthBar />
     <FivethBar />
     <SixthBar />
+    <SeventhBar />
   </React.StrictMode>,
 
   document.getElementById("root")
