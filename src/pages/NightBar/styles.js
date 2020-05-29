@@ -7,9 +7,12 @@ export const Container = styled.div`
 
 export const ItensBar = styled.div`
   display: flex;
-  padding: 60px;
   background-color: #f3f3f3;
   border-radius: 10px;
+  width: 100%;
+  height: 282px;
+  align-items: center;
+  text-align: center;
 `;
 
 export const Title = styled.p`
@@ -21,12 +24,20 @@ export const Title = styled.p`
 
 export const ItemBar = styled.div`
   padding: 20px 0 20px 6%;
+  display: block;
+  align-items: center;
+  border-right: 10px;
+  border-color: #000;
 `;
 
-export const IconImage = styled.img``;
+export const IconImage = styled.img`
+  padding: 10px;
+`;
 
 export const TitleItem = styled.p`
   color: #000;
+  font-size: 20px;
+  width: 200px;
 `;
 
 export const Subtitle = styled.p`

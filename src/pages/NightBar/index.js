@@ -29,26 +29,25 @@ function NightBar() {
 
         <ItemBar>
           <IconImage src={Escudo} />
-          <TitleItem>até 45 Kilos</TitleItem>
-          <Subtitle>(depende do material no enchimento)</Subtitle>
+          <TitleItem>Couro Sintético</TitleItem>
+          <Subtitle>(resistente até duas tonaldas)</Subtitle>
         </ItemBar>
 
         <ItemBar>
           <IconImage src={Garantia} />
-          <TitleItem>até 45 Kilos</TitleItem>
-          <Subtitle>(depende do material no enchimento)</Subtitle>
+          <TitleItem>Garantia de 2 anos</TitleItem>
         </ItemBar>
 
         <ItemBar>
           <IconImage src={Frete} />
-          <TitleItem>até 45 Kilos</TitleItem>
-          <Subtitle>(depende do material no enchimento)</Subtitle>
+          <br />
+          <br />
+          <TitleItem>Frete Grátis</TitleItem>
         </ItemBar>
 
         <ItemBar>
           <IconImage src={Prof} />
-          <TitleItem>até 45 Kilos</TitleItem>
-          <Subtitle>(depende do material no enchimento)</Subtitle>
+          <TitleItem>Usado por alunos e professores</TitleItem>
         </ItemBar>
       </ItensBar>
     </Container>
