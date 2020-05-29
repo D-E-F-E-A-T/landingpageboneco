@@ -8,6 +8,7 @@ import Prof from "../../assets/Professores-e-Alunos.png";
 
 import {
   Container,
+  ElementsHorizontal,
   ItensBar,
   Title,
   ItemBar,
@@ -19,36 +20,39 @@ import {
 function NightBar() {
   return (
     <Container>
-      <Title>CARACTERÍSTICAS</Title>
       <ItensBar>
-        <ItemBar>
-          <IconImage src={KG} />
-          <TitleItem>até 45 Kilos</TitleItem>
-          <Subtitle>(depende do material no enchimento)</Subtitle>
-        </ItemBar>
+        <Title>CARACTERÍSTICAS</Title>
 
-        <ItemBar>
-          <IconImage src={Escudo} />
-          <TitleItem>Couro Sintético</TitleItem>
-          <Subtitle>(resistente até duas tonaldas)</Subtitle>
-        </ItemBar>
+        <ElementsHorizontal>
+          <ItemBar>
+            <IconImage src={KG} />
+            <TitleItem>até 45 Kilos</TitleItem>
+            <Subtitle>(depende do material no enchimento)</Subtitle>
+          </ItemBar>
 
-        <ItemBar>
-          <IconImage src={Garantia} />
-          <TitleItem>Garantia de 2 anos</TitleItem>
-        </ItemBar>
+          <ItemBar>
+            <IconImage src={Escudo} />
+            <TitleItem>Couro Sintético</TitleItem>
+            <Subtitle>(resistente até duas tonaldas)</Subtitle>
+          </ItemBar>
 
-        <ItemBar>
-          <IconImage src={Frete} />
-          <br />
-          <br />
-          <TitleItem>Frete Grátis</TitleItem>
-        </ItemBar>
+          <ItemBar>
+            <IconImage src={Garantia} />
+            <TitleItem>Garantia de 2 anos</TitleItem>
+          </ItemBar>
 
-        <ItemBar>
-          <IconImage src={Prof} />
-          <TitleItem>Usado por alunos e professores</TitleItem>
-        </ItemBar>
+          <ItemBar>
+            <IconImage src={Frete} />
+            <br />
+            <br />
+            <TitleItem>Frete Grátis</TitleItem>
+          </ItemBar>
+
+          <ItemBar>
+            <IconImage src={Prof} />
+            <TitleItem>Usado por alunos e professores</TitleItem>
+          </ItemBar>
+        </ElementsHorizontal>
       </ItensBar>
     </Container>
   );

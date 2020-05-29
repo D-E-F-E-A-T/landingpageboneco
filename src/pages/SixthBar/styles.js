@@ -29,22 +29,30 @@ export const BonecoVermelho = styled.img`
   height: 352px;
 `;
 
-export const TitleBonecoVermelho = styled.p``;
+export const TitleBonecoVermelho = styled.p`
+  font-style: italic;
+`;
 
 export const BonecoBranco = styled.img`
   height: 466px;
 `;
 
-export const TitleBonecoBranco = styled.p``;
+export const TitleBonecoBranco = styled.p`
+  font-style: italic;
+`;
 
 export const BonecoCinza = styled.img`
   height: 466px;
 `;
 
-export const TitleBonecoCinza = styled.p``;
+export const TitleBonecoCinza = styled.p`
+  font-style: italic;
+`;
 
 export const BonecoPreto = styled.img`
   height: 352px;
 `;
 
-export const TitleBonecoPreto = styled.p``;
+export const TitleBonecoPreto = styled.p`
+  font-style: italic;
+`;

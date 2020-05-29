@@ -14,6 +14,7 @@ import SixthBar from "./pages/SixthBar";
 import SeventhBar from "./pages/SeventhBar";
 import EightBar from "./pages/EightBar";
 import NightBar from "./pages/NightBar";
+import TenthBar from "./pages/TenthBar";
 
 ReactDOM.render(
   <React.StrictMode>
@@ -27,6 +28,7 @@ ReactDOM.render(
     <SeventhBar />
     <EightBar />
     <NightBar />
+    <TenthBar />
   </React.StrictMode>,
 
   document.getElementById("root")
